@@ -1,0 +1,59 @@
+1) Create a plane
+
+
+
+2) Create a Polyhedron:
+Wirte shader hearers (fragment and vertex)
+Include shader files in main .cpp file
+Write function that reads the shader file
+Create shader program
+This creates shader
+Attach shader to shader program
+Links program
+Create vertex array of all the vertex points
+(Create array of colors if wish to)
+Use shader program and vertex points array to draw the polyhedron
+
+
+
+
+3) Create a light
+Create lights (glLight())
+position light
+enable lighting and individual lights
+For each object the light will effect
+	Define material properties (using glMaterial())
+	Provide normals for each rendered vertex
+
+
+
+
+4) Create a shadow casted by the object
+1st render the shadow map
+	set up render target and MVP matrix
+	create depth texture
+	check frame buffer is ok
+	compute the MVP matrix from the light's point of view
+	send information to bound shader
+	
+2nd) render the scene as the camera sees it, remembering points were in the shadow or not.
+
+
+
+5) Create camera controls to spin around the object
+Create case statement and handeling function which listens for keyboard events
+Update display and use glm library to rotate the camera around the object (ex trans=glm::rotate(trans,pit,glm::vec3(1,0,0));)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
