@@ -1,4 +1,15 @@
 1) Create a plane
+Create an array of vertex points
+Clear screen
+Generate object name for vertex
+Bind the object to the array
+Generate object name for vertex
+Bind the plane to the array
+Allocate memory of vertices
+Create shaders
+Enable vertex attribute index
+Specify the start of the vertice array
+Darw the the array
 
 
 
