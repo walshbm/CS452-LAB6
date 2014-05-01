@@ -32,6 +32,8 @@ Use shader program and vertex points array to draw the polyhedron
 Create lights (glLight())
 position light
 enable lighting and individual lights
+Create a normals array and add it as sub-buffer to the vbo
+Bind normals array as attribute to each vao and enable normals attribute
 For each object the light will effect
 	Define material properties (using glMaterial())
 	Provide normals for each rendered vertex
